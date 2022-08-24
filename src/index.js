@@ -1,5 +1,4 @@
-const _ = require('./styles/main.css');
+import './styles/main.css';
+import divNave from './component/navbar';
 
-import home from './pages/home.js';
-
-home();
+document.querySelector('#content').appendChild(divNave());
