@@ -1,8 +1,9 @@
 import divNave from '../component/navbar';
+import footer from '../component/footer';
 
 function Home() {
-  return divNave();
+  document.querySelector('#content').appendChild(divNave());
+  document.querySelector('#content').appendChild(footer());
 }
 
-document.querySelector('#content').appendChild(Home());
 export default Home;

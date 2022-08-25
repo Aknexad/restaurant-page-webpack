@@ -33,3 +33,15 @@ ul {
   align-items: center;
   gap: 20px;
 }
+
+.footer {
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}

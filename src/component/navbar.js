@@ -14,8 +14,4 @@ export default function navbar() {
   divNave.appendChild(ul);
 
   return divNave;
-
-  //   return document
-  //     .querySelector('#content')
-  //     .appendChild(div);
 }
