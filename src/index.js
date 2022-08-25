@@ -1,4 +1,5 @@
 import './styles/main.css';
-import divNave from './component/navbar';
 
-document.querySelector('#content').appendChild(divNave());
+import Home from './pages/home';
+
+Home();
