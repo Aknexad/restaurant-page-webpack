@@ -82,3 +82,31 @@ ul {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  gap: 10px;
+}
+
+.foodTitle {
+  width: 80vw;
+  height: 200px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.foodImg {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  background-image: url('../imaages/Untitled\ design.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
