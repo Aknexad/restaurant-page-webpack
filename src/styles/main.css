@@ -45,3 +45,40 @@ ul {
   gap: 20px;
   padding: 10px;
 }
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100vw;
+  height: 80vh;
+  gap: 50px;
+}
+.info {
+  background-color: black;
+  width: 700px;
+  height: 500px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info h1 {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+.info p {
+  font-size: 1.4rem;
+  text-align: center;
+  font-style: italic;
+}
+
+.chef {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-image: url('../imaages/chef.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
