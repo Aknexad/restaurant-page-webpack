@@ -1,17 +1,25 @@
 export default function navbar() {
   const divNave = document.createElement('div');
   divNave.classList.add('navbar');
-  const ul = document.createElement('ul');
-  const li = document.createElement('li');
-  const li1 = document.createElement('li');
-  const li2 = document.createElement('li');
-  li.innerText = 'Home';
-  li1.innerText = 'Menu';
-  li2.innerText = 'Abute';
-  ul.appendChild(li);
-  ul.appendChild(li1);
-  ul.appendChild(li2);
-  divNave.appendChild(ul);
+
+  const btn = document.createElement('button');
+  const btn2 = document.createElement('button');
+  const btn3 = document.createElement('button');
+
+  btn.classList.add('btn');
+  btn2.classList.add('btn');
+  btn3.classList.add('btn');
+  btn.classList.add('nav');
+  btn2.classList.add('nav');
+  btn3.classList.add('nav');
+
+  btn.innerText = 'Home';
+  btn2.innerText = 'Menu';
+  btn3.innerText = 'About';
+
+  divNave.appendChild(btn);
+  divNave.appendChild(btn2);
+  divNave.appendChild(btn3);
 
   return divNave;
 }

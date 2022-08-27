@@ -13,7 +13,6 @@ function about() {
   const addressP = document.createElement('p');
   const openAt = document.createElement('div');
   const table = document.createElement('table');
-
   for (let i = 0; i < days.length; i++) {
     const element = days[i];
     let p = document.createElement('p');
