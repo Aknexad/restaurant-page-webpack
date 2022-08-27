@@ -24,14 +24,22 @@ body {
   height: 50px;
   margin-top: 20px;
   padding: 10px;
-}
-
-ul {
-  list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
+}
+
+.btn {
+  font-size: 1.4rem;
+  padding: 5px 10px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: white;
+  font-weight: bolder;
+  border: 1px solid black;
 }
 
 .footer {
